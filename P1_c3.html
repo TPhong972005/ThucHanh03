@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#tkb {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.thu {
+  display: grid;
+  grid-template-columns: 100px repeat(5, 1fr); 
+  gap: 8px;
+}
+.tiet {
+  display: grid;
+  grid-template-columns: 100px repeat(5, 1fr); 
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  background-color: #f9f9f9;
+  font-weight: 500;
+  border-radius: 6px;
+}
+</style>
+</head>
+<body>
+    <h2>📅 Thời Khoá Biểu</h2>
+    <div id='tkb'>
+        <div class="thu">
+            <div>Tiết / Thứ</div>
+            <div>Thứ 2</div>
+            <div>Thứ 3</div>
+            <div>Thứ 4</div>
+            <div>Thứ 5</div>
+            <div>Thứ 6</div>
+        </div>
+        <div class="tiet">
+            <div>Tiết 1</div>
+            <div>Toán</div>
+            <div>Văn</div>
+            <div>Lý</div>
+            <div>Hóa</div>
+            <div>Thể dục</div>
+        </div>
+        <div class="tiet">
+            <div>Tiết 2</div>
+            <div>Văn</div>
+            <div>Sử</div>
+            <div>Toán</div>
+            <div>Địa</div>
+            <div>Tin</div>
+        </div>
+        <div class="tiet">
+            <div>Tiết 3</div>
+            <div>Tiếng Anh</div>
+            <div>Hóa</div>
+            <div>Toán</div>
+            <div>GDCD</div>
+            <div>CN</div>
+        </div>
+    </div>  
+</body>
+</html>

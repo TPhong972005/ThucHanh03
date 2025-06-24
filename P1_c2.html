@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+.lichhoc{
+    display:grid;
+    grid-template-areas: "tud ltw tmdt csdl qttc"
+}
+
+h2 {
+  color: #e85391;
+  margin-bottom: 20px;
+}
+.lichhoc > div {
+    color: rgb(13, 38, 163);
+    height:100px;
+  padding: 12px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+/* Hover đổi màu */
+.lichhoc div:hover {
+  background-color: #c8e6c9;
+}</style>
+</head>
+<body>
+    <h2>📚 Danh sách môn học yêu thích</h2>
+    <div class="lichhoc">
+    <div id="tud">
+        <ul>Toán ứng dụng</ul>
+         <li>T2:T1-3</li>
+    </div>
+    <div id="ltw">
+        <ul>Lập trình Web</ul>
+         <li>T3:T1-3</li>
+    </div>
+    <div id="tmdt">
+        <ul>Thương mại điện tử</ul>
+         <li>T4:T1-3</li></div>
+    <div id="csdl">
+        <ul>Cơ sở dữ liệu</ul>
+         <li>T5:T1-3</li>
+    </div>
+    <div id="qttc">
+        <ul>Quản trị tài chính</ul>
+         <li>T6:T1-3</li>
+    </div>
+  </div>
+</body>
+</html>
